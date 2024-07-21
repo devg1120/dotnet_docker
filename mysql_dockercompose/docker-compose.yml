@@ -18,7 +18,7 @@ services:
     image: mysql:8.0.27
     networks:
       - mysql-network
-    command: mysql -hmysql -uuser -ppassword db
+    command: mysql -hmysql -uuser -ppassword db -h 127.0.0.1
 
 networks:
   mysql-network:

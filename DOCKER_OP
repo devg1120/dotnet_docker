@@ -1,0 +1,17 @@
+docker daemon start
+
+# sudo systemctl start docker
+
+all container list
+ # docker ps -a
+
+all container delete
+ # docker rm `docker ps -a -q`
+
+
+all images list
+ # docker images
+
+all images delete
+ # docker rmi $(docker images -q)
+
