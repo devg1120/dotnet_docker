@@ -1,0 +1,18 @@
+https://zenn.dev/mstn_/articles/ad5d7c7ad7e2d6
+
+
+docker-compose up -d mysql
+
+docker-compose run cli
+
+
+
+mysql -u root -p -h 127.0.0.1
+
+mysql> show databases;
+mysql> use mydatabase;
+
+mysql> show tables;
+
+mysql> SELECT * FROM user;
+
